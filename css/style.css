@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputPanel {
+    flex: 2;
+    z-index: 1;
+    position: fixed;
+    /*margin-top: 1rem;*/
+    float: left;
+}
+  
+.main {
+    flex: 3;
+    /*margin-top: 1rem;*/
+    margin-left: 300px;
+    font-size: 24px;
+    float: right;
+}
+
+::placeholder {
+    color: white;
+}
+
+.label {
+    color: white;
+}
